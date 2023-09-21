@@ -68,8 +68,9 @@ img{
   .slide {
     position: absolute;
     animation: slide-animation 5s infinite alternate; /* Adjust the animation duration as needed */
-    font-size: 60px;
-    margin-top: 50px;
+    font-size: 20px;
+    margin-top: 90px;
+    
 }
 
 /* Define the animation keyframes */
