@@ -121,3 +121,27 @@ img{
     color: rgb(8, 148, 131);
     font-weight: 500;
 }
+
+.linkedIn{
+    width: 50px;
+    background-color:rgb(8, 148, 131);
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 3px 10px;
+}
+.Facebook{
+    width: 50px;
+    margin-left: -160px;
+    background-color:rgb(8, 148, 131);
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.socialmediaLinks{
+    margin-top: -62px;
+}
+.socialText{
+    margin-top: 98px;
+    margin-left: 20px;
+
+}
