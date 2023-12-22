@@ -67,26 +67,57 @@ img{
   /* Define individual slides */
   .slide {
     position: absolute;
-    animation: slide-animation 2s infinite alternate; /* Adjust the animation duration as needed */
+    animation: slide-animation 12s infinite alternate; /* Adjust the animation duration as needed */
     font-size: 20px;
     margin-top: 40px;
     width: 399px;
     font-weight: 500;
-    color: hwb(0 0% 100%);
+    color: rgb(8, 148, 131);
+    
+
     
     
 }
+ 
+.slide1{
+    animation-delay: 1s;
+   
+}
+.slide2{
+    animation-delay: -5s;
+}
+
+
+/* @keyframes slide-animation {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+ */
+
+
+
 
 /* Define the animation keyframes */
-@keyframes slide-animation {
+/* @keyframes slide-animation {
     0% {
         opacity: 0;
     }
     100% {
         opacity: 1;
     }
-}
+} */
+
+@keyframes slide-animation {
+    0%, 100% { transform: translateX(0); }
+    25%, 75% { transform: translateX(100%); }
+  }
 
 .container{
     display: flex;
+}
+
+.aboutme{
+    margin-top: -60px;
+    color: rgb(8, 148, 131);
+    font-weight: 500;
 }
