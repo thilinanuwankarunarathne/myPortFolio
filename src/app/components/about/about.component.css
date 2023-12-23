@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+}
+.aboutLeft{
+    margin-left: 180px;
+}
+.aboutRight{
+    margin-left: 50px;
+    margin-top: -38px;
+    margin-right: 180px;
+}
+
+.aboutThilina{
+    font-size: 50px;
+}
+.whatDo{
+    color: rgb(80, 80, 74);
+    margin-top: -40px;
+}
+.bothAboutThilina{
+    margin-bottom: 60px;
+}
+.myVision{
+    font-size: 25px;
+}
+.visionText{
+    text-align: justify;
+}
+.detailsContainer{
+    display: flex;
+    word-spacing: 10px;
+  
+ 
+}
+.detailsColor{
+    color: rgb(8, 148, 131);
+}
+.leftDetails{
+    margin-right: 70px;
+}
+.leftDetails p{
+    margin-bottom: 40px;
+}
+.aboutButton{
+    display: flex;
+}
+button{
+    margin-right: 50px;
+}

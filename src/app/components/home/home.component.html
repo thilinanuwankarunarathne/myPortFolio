@@ -1,18 +1,18 @@
 <mat-toolbar>
     <!-- <span>My Application</span> -->
-<!-- 
+
     <div class="main_menu">
         <button  routerLink="/">Home</button>
-        <button routerLink="/about">About</button>
+        <button (click)="goToAbout('about')" >About</button>
         <button>Services</button>
         <button>Projects</button>
         <button>Blogs</button>
         <button>Contact</button>
         
-    </div> -->
+    </div>
 
-
-  <app-header></app-header>
+<!-- 
+  <app-header></app-header> -->
 
     
   </mat-toolbar>
@@ -58,6 +58,6 @@
 
 </div>
 
-<app-about></app-about>
+<div id="about"><app-about ></app-about></div>
 
 

@@ -115,6 +115,7 @@ img{
 
 .container{
     display: flex;
+    margin-bottom: 75px;
 }
 
 .aboutme{
