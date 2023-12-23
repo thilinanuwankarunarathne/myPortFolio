@@ -1,0 +1,22 @@
+.whatIoffer{
+    font-size: 50px;
+    text-align: center;
+
+}
+.offerText{
+    color: rgb(80, 80, 74);
+    margin-top: -40px;
+    text-align: center;
+}
+.offerContainer{
+    display: flex;
+    margin: 0px 180px;
+}
+.offer{
+    border: 3px solid black;
+    margin: 0 60px;
+    padding: 10px 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}

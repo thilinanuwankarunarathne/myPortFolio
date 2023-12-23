@@ -1,5 +1,6 @@
 .container{
     display: flex;
+    margin-bottom: 170px;
 }
 .aboutLeft{
     margin-left: 180px;
@@ -46,4 +47,87 @@
 }
 button{
     margin-right: 50px;
+    margin-bottom: -100px;
+    background-color:rgb(8, 148, 131); ;
+    color: aliceblue;
+    outline: none;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    background-color: black;
+}
+.mySkill{
+    margin-left: 180px;
+    margin-top: -80px;
+    font-size: 50px;
+}
+.skills{
+    margin-left: 180px;
+    margin-top: -40px;
+    color: rgb(80, 80, 74);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    margin: 0 180px;
+    overflow: hidden;
+   
+   
+}
+.image-line {
+    display: flex;
+    align-items: center;
+    animation: moveImages 28s linear infinite; /* Adjust the animation duration as needed */
+}
+
+.image-line img {
+    width: 100px; /* Adjust the image width */
+    margin: 0 10px; /* Adjust the spacing between images */
+}
+
+@keyframes moveImages {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-20%); /* Adjust the distance to move the images */
+    }
+}
+
+.progbar {
+    margin: 0 180px;
+    display: flex;
+ 
+}
+.progbar2 {
+    margin: 30px 380px;
+    display: flex;
+ 
+}
+
+.progress-container {
+    width: 300px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 90%; /* Adjust the progress percentage */
+    height: 10px;
+    background-color: rgb(8, 148, 131); /* Green color for completed progress */
+    text-align: center;
+    line-height: 20px;
+    color: white;
+}
+.progressBarMarging{
+    margin-right: 200px;
+
 }

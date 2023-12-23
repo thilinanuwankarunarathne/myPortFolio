@@ -114,8 +114,10 @@ img{
   }
 
 .container{
+   
     display: flex;
     margin-bottom: 75px;
+   
 }
 
 .aboutme{
@@ -138,6 +140,15 @@ img{
     border-radius: 5px;
     padding: 3px 10px;
 }
+.Facebook:hover{
+    background-color: aliceblue;
+    transform: scale(1.5);
+}
+.linkedIn:hover{
+    background-color: aliceblue;
+    transform: scale(1.5);
+
+}
 
 .socialmediaLinks{
     margin-top: -62px;
@@ -146,4 +157,59 @@ img{
     margin-top: 98px;
     margin-left: 20px;
 
+}
+@media(  max-width: 768px ){
+  .container{
+    width: 100%;
+    padding: 3px;
+  }
+  .main_menu{
+    width: 200px;
+  }
+  .hello{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+img{
+    display: none;
+}
+.iAm{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.thilina{
+font-weight: 700;
+letter-spacing: 6px;
+}
+.Karunarathne{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    letter-spacing: 4px;
+
+
+}
+.welcome_lefe_side{
+  
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.linkedIn{
+    width: 20px;
+    background-color:rgb(8, 148, 131);
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 3px 10px;
+}
+.Facebook{
+    width: 20px;
+    margin-left: -160px;
+    background-color:rgb(8, 148, 131);
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+    
 }
