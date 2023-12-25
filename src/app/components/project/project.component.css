@@ -1,0 +1,26 @@
+.myProject{
+    margin-left: 180px;
+    font-size: 50px;
+}
+.slogan{
+    margin-left: 180px;
+    margin-top: -40px;
+    color: rgb(80, 80, 74);
+}
+.projectDisplay{
+    display: flex;
+    margin:20px 185px;
+}
+.projectDisplay img{
+    width: 300px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+     box-shadow: 5px 5px 10px rgba(0, 0,0,0.7);
+     
+}
+.projectDisplay img:hover{
+    transform: scale(1.04);
+   
+}
+
+

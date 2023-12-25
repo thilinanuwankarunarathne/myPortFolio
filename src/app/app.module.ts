@@ -10,7 +10,8 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { HeaderComponent } from './header/header.component';
-import { ServicesComponent } from './services/services.component';
+import { ServicesComponent } from './components/services/services.component';
+import { ProjectComponent } from './components/project/project.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ServicesComponent } from './services/services.component';
     HomeComponent,
     AboutComponent,
     HeaderComponent,
-    ServicesComponent
+    ServicesComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,

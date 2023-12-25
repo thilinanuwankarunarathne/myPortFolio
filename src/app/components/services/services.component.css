@@ -1,0 +1,42 @@
+.whatIoffer{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.offerText{
+    color: rgb(80, 80, 74);
+    margin-top: -40px;
+    text-align: center;
+}
+.offerContainer{
+    display: flex;
+    margin: 0px 180px;
+}
+.offer{
+    border: 3px solid black;
+    margin: 0 40px;
+    padding: 20px 10px;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    border-color:rgb(8, 148, 131) ;
+    box-shadow: 5px 5px 10px rgba(0, 0,0,0.7);
+    margin-bottom: 40px;
+    
+}
+.offer:hover{
+
+    transform: scale(1.01);
+
+}
+.offer h5{
+    text-align: left;
+    font-size: 23px;
+    font-weight: 500;
+    color:rgb(8, 148, 131) ;
+   
+}
+.offer img{
+    width: 100px;
+}
