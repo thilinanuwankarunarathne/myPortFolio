@@ -4,10 +4,10 @@
     <div class="main_menu">
         <button  routerLink="/">Home</button>
         <button (click)="goToAbout('about')" >About</button>
-        <button>Services</button>
-        <button>Projects</button>
-        <button>Blogs</button>
-        <button>Contact</button>
+        <button (click)="goToService('services')" >Services</button>
+        <button (click)="goToProjectt('projects')" >Projects</button>
+        <button (click)="goToBlogs('blogs')" >Blogs</button>
+        <button (click)="goToContact('contact')" >Contact</button>
         
     </div>
 
@@ -59,10 +59,10 @@
 </div>
 
 <div id="about"><app-about ></app-about></div>
-<app-services></app-services>
-<app-project></app-project>
-<app-blogs></app-blogs>
-<app-sayhello></app-sayhello>
+<app-services id="services"></app-services>
+<app-project id="projects"></app-project>
+<app-blogs id="blogs"></app-blogs>
+<app-sayhello id="contact"></app-sayhello>
 <app-contact></app-contact>
 
 

@@ -20,4 +20,31 @@ export class HomeComponent {
    
 
   }
+
+  goToService(fragment:any){
+    this.router.navigateByUrl('home#'+ fragment);
+   
+
+  }
+
+  goToProjectt(fragment:any){
+    this.router.navigateByUrl('home#'+ fragment);
+   
+
+  }
+
+  goToBlogs(fragment:any){
+    this.router.navigateByUrl('home#'+ fragment);
+   
+
+  }
+
+  goToContact(fragment:any){
+    this.router.navigateByUrl('home#'+ fragment);
+   
+
+  }
+  
+  
 }
+

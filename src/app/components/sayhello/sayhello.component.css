@@ -53,11 +53,16 @@
   }
 mat-form-field{
     width: 300px;
+    margin-top: 40px;
   }
   .sayHelloDiv1 mat-form-field{
     width: 638px;
-    margin-top: -40px;
-    margin-bottom: 40px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+  }
+  .sayHelloDiv1{
+    margin-left: -0px;
 
   }
 
