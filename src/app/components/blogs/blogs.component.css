@@ -1,0 +1,29 @@
+.blogs{
+    font-size: 50px;
+}
+.blogsDiv{
+    margin-top: 40px;
+    margin: 40px 180px;
+    text-align: center;
+}
+.blogSlogan{
+    margin-top: -42px;
+}
+.blogContainer{
+    margin: 40px 180px;
+    display: flex;
+
+}
+img{
+    margin-right: 80px;
+   
+}
+.rightContainer{
+    margin-top: -24px;
+}
+.rightContainer h3{
+  font-size: 25px;
+}
+.rightContainer p{
+    text-align: justify;
+}

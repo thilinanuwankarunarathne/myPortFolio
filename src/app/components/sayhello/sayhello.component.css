@@ -1,0 +1,63 @@
+
+.sayHello{
+    font-size: 50px;
+}
+
+.sayHelloDiv{
+    margin: 40px 180px;
+
+}
+
+.sayHelloDiv1{
+    margin: 0px 180px;
+    
+
+}
+.saySlogan{
+    margin-top: -40px;
+}
+.helloContainer{
+    display: flex;
+    margin: 40px 180px;
+}
+.leftContainer{
+    display:flex;
+
+    
+}
+.leftContainer div{
+    margin-right: 40px;
+
+}
+/* input{
+    margin-right: 30px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+     border-color: antiquewhite;
+     outline: none;
+     background-color: rgb(225, 225, 225);
+     padding: 20x;
+     margin-left: 10px;
+
+} */
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+mat-form-field{
+    width: 300px;
+  }
+  .sayHelloDiv1 mat-form-field{
+    width: 638px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+
+  }
+

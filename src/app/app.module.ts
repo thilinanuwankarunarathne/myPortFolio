@@ -12,6 +12,10 @@ import {MatIconModule} from '@angular/material/icon';
 import { HeaderComponent } from './header/header.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ProjectComponent } from './components/project/project.component';
+import { BlogsComponent } from './components/blogs/blogs.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { SayhelloComponent } from './components/sayhello/sayhello.component';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,10 @@ import { ProjectComponent } from './components/project/project.component';
     AboutComponent,
     HeaderComponent,
     ServicesComponent,
-    ProjectComponent
+    ProjectComponent,
+    BlogsComponent,
+    ContactComponent,
+    SayhelloComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +35,8 @@ import { ProjectComponent } from './components/project/project.component';
     BrowserAnimationsModule,
     MatMenuModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
