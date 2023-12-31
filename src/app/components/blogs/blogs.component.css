@@ -1,6 +1,16 @@
 .blogs{
     font-size: 50px;
+    
+    /* font-family: Rocher;
+    base-palette: 7; */
+
 }
+
+/* @font-face{
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+} */
+
 .blogsDiv{
     margin-top: 40px;
     margin: 40px 180px;

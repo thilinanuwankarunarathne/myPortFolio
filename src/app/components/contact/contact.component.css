@@ -29,3 +29,7 @@ img{
     width: 25px;
     margin: 0 10px;
 }
+
+.contactContainer a{
+    margin-top: -10px;
+}

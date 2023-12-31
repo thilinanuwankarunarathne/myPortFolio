@@ -42,15 +42,7 @@
 
 } */
 
-.example-form {
-    min-width: 150px;
-    max-width: 500px;
-    width: 100%;
-  }
-  
-  .example-full-width {
-    width: 100%;
-  }
+
 mat-form-field{
     width: 300px;
     margin-top: 40px;
@@ -65,4 +57,10 @@ mat-form-field{
     margin-left: -0px;
 
   }
-
+.mylocation{
+    margin-left: -450px;
+    
+}
+form{
+    margin-top: -20px;
+}
